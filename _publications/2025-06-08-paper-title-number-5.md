@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Beyond Answers: Beauty of Mathematical Questions"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: books
+permalink: /publication/2022-12-01-beyond-answers-book
+excerpt: 'A book exploring the elegance of mathematical questions over just finding solutions.'
+date: 2022-12-01
+venue: 'Self-published via Amazon and Notion Press'
+paperurl: 'https://www.amazon.in/dp/B0XXXXXXXXX'  # Replace with actual link if available
+citation: 'Timshina, U. (2022). <i>Beyond Answers: Beauty of Mathematical Questions</i>. Self-published via Amazon and Notion Press.'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+This book reflects on the **philosophical and aesthetic aspects of mathematical inquiry**, emphasizing the beauty of deep questions rather than just arriving at answers. It was written to encourage students and educators to approach mathematics with curiosity and wonder.
+
+
