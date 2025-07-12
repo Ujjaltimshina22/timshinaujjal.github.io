@@ -61,89 +61,105 @@ Maryam Mirzakhani Research Lab (B-313), New Delhi, India
 
 ---
 
-## Professional Development & Academic Engagements
+## Conferences, Workshops & Academic Engagements
 
-<details>
-  <summary><strong>Math IntroSeries: Generalized Weyl Algebras</strong></summary>
-  <p>
-    Attended Course-1 organized by the University of the Philippines, NEHU, MSU-IIT, CMU, Linnaeus University (June 30 – July 10, 2025).
-  </p>
-</details>
+### Conferences & Summer Schools
 
-<details>
-  <summary><strong>Workshop: Young Mathematicians in Operator Algebra (YMOA)</strong></summary>
-  <p>ISI Delhi, March 2025</p>
-</details>
+- **Math IntroSeries – Generalized Weyl Algebras and Their Representations**  
+  *Institute of Mathematics, University of the Philippines Diliman, NEHU, MSU-IIT, CMU, Linnaeus University*  
+  **Date:** June 30 – July 10, 2025  
+  Participated in Course-1 of the Math IntroSeries focusing on Generalized Weyl Algebras and their representation theory.
 
-<details>
-  <summary><strong>Tutorial Assistant: INMO Training Camp</strong></summary>
-  <p>SMIT, Sikkim, 2024 (HBCSE, TIFR)</p>
-</details>
+- **Selected: Dynamical Systems and Fractal Geometry**  
+  *University of North Texas, USA* — **May 2024**  
+  Selected participant (did not attend).
 
-<details>
-  <summary><strong>Tutorial Assistant: National Mathematics Day 2024</strong></summary>
-  <p>DST, Government of Sikkim</p>
-</details>
+- **Selected: Mathematics of Random Systems Summer School**  
+  *RIMS, Kyoto University, Japan* — **September 2023**  
+  Selected participant (did not attend).
 
-<details>
-  <summary><strong>Instructional School for Teachers in Real Analysis</strong></summary>
-  <p>IIT Bombay & TIFR, at Manipal Institute of Technology, Sikkim (Dec 2022)</p>
-</details>
+- **CREST School on Applied Combinatorics – Cryptography and Combinatorial Topology**  
+  *TCG CREST, Kolkata* — **July 11–23, 2022**  
+  Participated in the school focused on discrete mathematics and topology with applications to cryptography.
 
-<details>
-  <summary><strong>CREST School on Applied Combinatorics</strong></summary>
-  <p>TCG CREST, Kolkata, July 2022</p>
-</details>
+- **National Seminar on Recent Trends in Topology and its Applications**  
+  *Department of Mathematics, North Eastern Hill University (NEHU), Shillong* — **2022**  
+  Participated in a national seminar discussing advances in general and algebraic topology.
 
-<details>
-  <summary><strong>PhD Seminar Coordinator</strong></summary>
-  <p>IIIT Delhi, Winter Session 2024</p>
-</details>
+- **International Webinar on Fundamental Mathematics**  
+  *Department of Mathematics, School of Basic Sciences, Assam Kaziranga University*  
+  **Date:** August 30 – September 1, 2022  
+  Participated in a 3-day international webinar covering core foundational areas in mathematics.
 
-<details>
-  <summary><strong>Workshop on Graph Theory</strong></summary>
-  <p>NBB Government College, Tadong, 2023</p>
-</details>
+---
 
-<details>
-  <summary><strong>Lecture Series: Prof. Komatsu</strong></summary>
-  <p>Number Theory, Sant Longowal Institute of Engineering and Technology, 2023</p>
-</details>
+### Workshops
 
-<details>
-  <summary><strong>FDPs & Workshops on DE and ML</strong></summary>
-  <p>Attended multiple online Faculty Development Programs and workshops, 2022–2023</p>
-</details>
+- **Workshop on Young Mathematicians in Operator Algebra (YMOA)**  
+  *Indian Statistical Institute (ISI), Delhi* — **March 2025**  
+  Participated in an intensive workshop on Operator Algebra with other early-career researchers.
 
-<details>
-  <summary><strong>Workshop: Recent Advances in Mathematics</strong></summary>
-  <p>Calcutta University, 2022</p>
-</details>
+- **Workshop on Graph Theory and its Applications**  
+  *Nar Bahadur Bhandari Government College, Tadong* — **2023**  
+  Attended a state-level workshop introducing graph-theoretic techniques and their real-world applications.
 
-<details>
-  <summary><strong>Workshop: Research Data Management</strong></summary>
-  <p>Bennett University, 2022</p>
-</details>
+- **Workshop on Recent Advances in Mathematics and its Applications**  
+  *University of Calcutta* — **2022**  
+  Explored emerging topics in pure and applied mathematics.
 
-<details>
-  <summary><strong>National Seminar: Trends in Topology</strong></summary>
-  <p>NEHU, Shillong, 2022</p>
-</details>
+- **Workshop on Research Data Management**  
+  *Bennett University* — **2022**  
+  Focused on organizing, sharing, and managing research data efficiently.
 
-<details>
-  <summary><strong>International Webinar: Fundamental Mathematics</strong></summary>
-  <p>Kaziranga University, Aug–Sep 2022</p>
-</details>
+- **Workshop on Number Theory (Prof. Komatsu Lecture Series)**  
+  *Sant Longowal Institute of Engineering and Technology (SLIET)* — **2023**  
+  Participated in a lecture series by Prof. Komatsu on analytic number theory and congruences.
 
-<details>
-  <summary><strong>MTTS Level-1</strong></summary>
-  <p>NBHM, Government of India, 2021</p>
-</details>
+---
 
-<details>
-  <summary><strong>Energy Literacy Training</strong></summary>
-  <p>Energy Swaraj Foundation (Swayam)</p>
-</details>
+### Instructional Programs
+
+- **Instructional School for Teachers in Real Analysis**  
+  *Organized by IIT Bombay and TIFR, hosted at Manipal Institute of Technology, Sikkim* — **December 2022**  
+  Covered rigorous topics in measure theory, sequences and series of functions, and integration.
+
+- **Mathematics Training and Talent Search Program (MTTS) – Level 1**  
+  *Funded by NBHM, Govt. of India* — **2021**  
+  Selected and attended foundational mathematical training with focus on problem-solving and mathematical maturity.
+
+---
+
+### Academic Outreach & Volunteering
+
+- **Tutorial Assistant**, INMO Training Camp — **2024**  
+  *SMIT, Sikkim* — Funded by HBCSE, TIFR  
+  Mentored and taught advanced mathematics to Olympiad aspirants.
+
+- **Tutorial Assistant**, National Mathematics Day (NMD) — **2024**  
+  *Under the Department of Science and Technology, Govt. of Sikkim*  
+  Helped organize and mentor student activities and talks.
+
+- **Coordinator**, PhD Seminar Series — **Winter 2024**  
+  *IIIT Delhi, Department of Mathematics*  
+  Managed scheduling, coordination, and feedback for research presentations.
+
+- **Lectures on Career Aspects of Mathematics** — **2024**  
+  Delivered public talks on career opportunities in mathematics at Govt. Senior Secondary Schools in Daramdin and Tashiding, under DST, Govt. of Sikkim.
+
+- **Poster Presenter**, Departmental Science Expo — **2022**  
+  Represented the Department of Mathematics, Sikkim University, at the DST Government of Sikkim event.
+
+---
+
+### Online FDPs and Workshops (2022–2023)
+
+- Attended multiple faculty development programs and online workshops in:
+  - **Differential Equations**
+  - **Machine Learning**
+  - **Topology & Functional Analysis**
+  - **Mathematical Communication & Pedagogy**
+
+---
 
 ---
 
