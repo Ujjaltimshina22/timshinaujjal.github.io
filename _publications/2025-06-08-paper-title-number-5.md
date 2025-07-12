@@ -6,7 +6,6 @@ permalink: /publication/2022-12-01-beyond-answers-book
 excerpt: 'A book exploring the elegance of mathematical questions over just finding solutions.'
 date: 2022-12-01
 venue: 'Self-published via Amazon and Notion Press'
-paperurl: 'https://www.amazon.in/dp/B0XXXXXXXXX'  # Replace with actual link if available
 citation: 'Timshina, U. (2022). <i>Beyond Answers: Beauty of Mathematical Questions</i>. Self-published via Amazon and Notion Press.'
 ---
 
