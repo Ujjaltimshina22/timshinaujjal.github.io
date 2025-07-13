@@ -1,7 +1,6 @@
 ---
 layout: archive
-title: "Sitemap"
-permalink: /sitemap/
+title: "Ujjal Timshina"
 author_profile: true
 ---
 
