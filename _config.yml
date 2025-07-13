@@ -2,7 +2,7 @@ title: "Ujjal Timshina"
 title_separator: "-"
 name: &name "Ujjal Timshina"
 description: &description "PhD Scholar, School of Mathematics"
-url: "https://timshinaujjal.github.io/timshinaujjal.github.io/"
+url: "https://github.com/timshinaujjal/timshinaujjal.github.io/"
 baseurl: ""
 repository: "timshinaujjal.github.io"
 theme: minima
