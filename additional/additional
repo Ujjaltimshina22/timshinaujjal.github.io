@@ -1,1 +1,17 @@
+<section id="miscellaneous">
+  <h1>Miscellaneous</h1>
+  <h2>➕ Mathematical Fun Fact</h2>
+  <p>Did you know? The number <strong>0.999...</strong> (with infinite 9s) is actually <strong>equal to 1</strong>!</p>
+  <p>It’s a classic example of how infinite decimals work in mathematics.</p>
+  <p><strong>0.999... = 1</strong></p>
+
+  <p>Need proof?</p>
+  <pre>
+Let x = 0.999...
+Then, 10x = 9.999...
+Subtract: 10x - x = 9.999... - 0.999...
+Result: 9x = 9 → x = 1
+  </pre>
+  <p>Mind blown yet? 🤯</p>
+</section>
 
