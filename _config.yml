@@ -1,13 +1,13 @@
 # Basic Site Settings
 title: "Ujjal Timshina"
 title_separator: "-"
-name: "Ujjal Timshina"
-description: "PhD Scholar, School of Mathematics"
-url: "https://timshinaujjal.github.io"
-baseurl: ""
-repository: "timshinaujjal/timshinaujjal.github.io"
+name: &name "Ujjal Timshina"
+description: &description "PhD Scholar, School of Mathematics"
+url: "https://timshinaujjal.github.io"   # Your live URL
+baseurl: ""                             # Keep empty for root domain
+repository: "timshinaujjal/timshinaujjal.github.io" # GitHub repo
 
-# Theme
+# Theme (Minimal Mistakes)
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Plugins
@@ -19,7 +19,7 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
-# Whitelist plugins (typo fixed)
+# Whitelist plugins (fix typo)
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -27,194 +27,43 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-# Author Profile (important for sidebar)
+# Author info for sidebar
 author:
-  avatar: "IMG_1458.png"
+  avatar: "assets/images/IMG_1458.png"  # Adjust path to your avatar image
   name: "Ujjal Timshina"
-  pronouns: "" 
   bio: "Doctoral Researcher, School of Mathematics, IIIT Delhi"
   location: "New Delhi, India"
   employer: "IIIT, Delhi"
-  uri: ""
   email: "ujjalt@iiitd.ac.in"
 
-  researchgate: ""
-
-  # Development profiles
-  bitbucket: ""
-  codepen: ""
-  dribbble: ""
+  # Social media links you want to show
   github: "ujjaltimshina"
-  kaggle: ""
-  stackoverflow: ""
-
-  # Social media
-  artstation: ""
-  bluesky: ""
   facebook: "Ujjal Timshina"
-  flickr: ""
-  foursquare: ""
-  goodreads: ""
-  google_plus: ""
-  keybase: ""
-  instagram: ""
-  lastfm: ""
-  linkedin: ""
-  mastodon: ""
-  medium: ""
-  pinterest: ""
-  soundcloud: ""
-  steam: ""
-  telegram: ""
-  tumblr: ""
-  twitter: ""
-  vine: ""
-  weibo: ""
-  wikipedia: ""
-  xing: ""
-  youtube: ""
-  zhihu: ""
+  instagram: ""    # Add your Instagram username if any
+  uri: "https://timshinaujjal.github.io"  # Your website URL
 
-# Custom CSS support
+# Defaults to enable author_profile on pages/posts etc.
 defaults:
   - scope:
       path: ""
     values:
-      custom_css: style.css
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Publication Categories
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
-
-# Site Settings
-teaser: ""
-breadcrumbs: false
-words_per_minute: 160
-future: true
-read_more: "disabled"
-talkmap_link: false
-
-comments:
-  provider: false
-
-# Staticman config (optional)
-staticman:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "gh-pages"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-
-atom_feed:
-  hide: false
-  path: ""
-
-# SEO Verification (empty, add if you have)
-google_site_verification: ""
-bing_site_verification: ""
-alexa_site_verification: ""
-yandex_site_verification: ""
-
-# Social Sharing defaults
-twitter:
-  username: ""
-facebook:
-  username: ""
-  app_id: ""
-  publisher: ""
-
-og_image: ""
-og_description: ""
-
-social:
-  type: ""
-  name: ""
-  links: []
-
-# Analytics
-analytics:
-  provider: "false"
-  google:
-    tracking_id: ""
-
-# Include and exclude files
-include:
-  - .htaccess
-  - _pages
-  - files
-
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - vendor
-
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+      custom_css: style.css   # If you add custom CSS
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # Collections
 collections:
@@ -231,72 +80,41 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults for pages, posts, collections with author sidebar enabled
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
 
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+# Disable footer GitHub and feed links:
+footer:
+  show_github: false
+  show_feed: false
 
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+# Site settings
+permalink: /:categories/:title/
+timezone: Etc/UTC
 
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+# Markdown & Syntax highlighting
+markdown: kramdown
+highlighter: rouge
 
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-# Sass/SCSS (again, since you had duplicated)
+# Sass settings (if you use Sass)
 sass:
   sass_dir: _sass
   style: compressed
 
-# Permalink and timezone
-permalink: /:categories/:title/
-timezone: Etc/UTC
+# Exclude from build
+exclude:
+  - "node_modules"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"
 
-# HTML compression (optional)
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# Include extra files
+include:
+  - ".htaccess"
+  - "_pages"
+  - "files"
+
+# Analytics (disabled)
+analytics:
+  provider: false
