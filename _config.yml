@@ -1,25 +1,25 @@
 # Basic Site Settings
-title                    : "Ujjal Timshina"
-title_separator          : "-"
-name                     : &name "Ujjal Timshina"
-description              : &description "PhD Scholar, School of Mathematics"
-url                      : "https://timshinaujjal.github.io"  # ✅ Correct live URL here
-baseurl                  : ""  # ✅ Keep empty for root domain
-repository               : "timshinaujjal/timshinaujjal.github.io"  # ✅ Format: username/repo
+title: "Ujjal Timshina"
+title_separator: "-"
+name: "Ujjal Timshina"
+description: "PhD Scholar, School of Mathematics"
+url: "https://timshinaujjal.github.io"
+baseurl: ""
+repository: "timshinaujjal/timshinaujjal.github.io"
 
-# Theme (Minimal Mistakes via GitHub Pages)
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"  # ✅ Enables the theme
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# Plugins (GitHub Pages safe list)
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-redirect-from
   - jemoji
-  - jekyll-remote-theme  # ✅ Required for remote_theme
+  - jekyll-remote-theme
 
-# Whitelist (Remove typo in `jekyll-paginatΩ`)
+# Whitelist plugins (typo fixed)
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -27,149 +27,142 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-# ✅ Add Custom CSS Support
+# Author Profile (important for sidebar)
+author:
+  avatar: "IMG_1458.png"
+  name: "Ujjal Timshina"
+  pronouns: "" 
+  bio: "Doctoral Researcher, School of Mathematics, IIIT Delhi"
+  location: "New Delhi, India"
+  employer: "IIIT, Delhi"
+  uri: ""
+  email: "ujjalt@iiitd.ac.in"
+
+  researchgate: ""
+
+  # Development profiles
+  bitbucket: ""
+  codepen: ""
+  dribbble: ""
+  github: "ujjaltimshina"
+  kaggle: ""
+  stackoverflow: ""
+
+  # Social media
+  artstation: ""
+  bluesky: ""
+  facebook: "Ujjal Timshina"
+  flickr: ""
+  foursquare: ""
+  goodreads: ""
+  google_plus: ""
+  keybase: ""
+  instagram: ""
+  lastfm: ""
+  linkedin: ""
+  mastodon: ""
+  medium: ""
+  pinterest: ""
+  soundcloud: ""
+  steam: ""
+  telegram: ""
+  tumblr: ""
+  twitter: ""
+  vine: ""
+  weibo: ""
+  wikipedia: ""
+  xing: ""
+  youtube: ""
+  zhihu: ""
+
+# Custom CSS support
 defaults:
   - scope:
       path: ""
     values:
       custom_css: style.css
 
-# Optional Sass setting if you add custom SCSS later
+# Sass
 sass:
   sass_dir: _sass
   style: compressed
 
-  avatar           : "IMG_1458.png"
-  name             : "Ujjal Timshina"
-  pronouns         : # example: "she/her"  
-  bio              : "Doctoral Researcher, School of Mathematics, IIIT Delhi"
-  location         : "New Delhi, India"
-  employer         : "IIIT, Delhi"
-  uri              : # URL
-  email            : "ujjalt@iiitd.ac.in" 
-
-
-  researchgate     : # URL
-
-
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "ujjaltimshina"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
-  # Social media
-  artstation       : # Username
-  bluesky          : #"bsky.app" # Replace this with you Bluesky username
-  facebook         : "Ujjal Timshina"
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
-
-# Publication Category - The following the list of publication categories and their headings
+# Publication Categories
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+teaser: ""
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+  provider: false
+
+# Staticman config (optional)
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format: "iso8601"
+
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide: false
+  path: ""
 
+# SEO Verification (empty, add if you have)
+google_site_verification: ""
+bing_site_verification: ""
+alexa_site_verification: ""
+yandex_site_verification: ""
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-
-# Social Sharing
+# Social Sharing defaults
 twitter:
-  username               : &twitter
+  username: ""
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  username: ""
+  app_id: ""
+  publisher: ""
 
+og_image: ""
+og_description: ""
+
+social:
+  type: ""
+  name: ""
+  links: []
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider: "false"
   google:
-    tracking_id          :
+    tracking_id: ""
 
-
-# Reading Files
+# Include and exclude files
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -197,12 +190,13 @@ exclude:
   - README
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -210,7 +204,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -223,8 +216,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# These settings control the types of collections used by the template
+# Collections
 collections:
   teaching:
     output: true
@@ -239,10 +231,8 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
-# These settings control how pages and collections are included in the site
+# Defaults for pages, posts, collections with author sidebar enabled
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -253,14 +243,14 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+
   - scope:
       path: ""
       type: teaching
@@ -269,7 +259,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+
   - scope:
       path: ""
       type: publications
@@ -278,7 +268,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+
   - scope:
       path: ""
       type: portfolio
@@ -286,8 +276,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _talks
+      comments: true
+
   - scope:
       path: ""
       type: talks
@@ -296,68 +286,16 @@ defaults:
       author_profile: true
       share: true
 
-
-# Sass/SCSS
+# Sass/SCSS (again, since you had duplicated)
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
+# Permalink and timezone
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Etc/UTC
 
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jemoji
-
-# Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginatΩ
-  - jekyll-redirect-from
-  - jemoji
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
+# HTML compression (optional)
 compress_html:
   clippings: all
   ignore:
