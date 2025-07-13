@@ -3,9 +3,9 @@ title: "Ujjal Timshina"
 title_separator: "-"
 name: &name "Ujjal Timshina"
 description: &description "PhD Scholar, School of Mathematics"
-url: "https://timshinaujjal.github.io"   # Your live URL
+url: "https://github.com/timshinaujjal/timshinaujjal.github.io/"   # Your live URL
 baseurl: ""                             # Keep empty for root domain
-repository: "timshinaujjal/timshinaujjal.github.io" # GitHub repo
+repository: "timshinaujjal.github.io/" # GitHub repo
 
 # Theme (Minimal Mistakes)
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
