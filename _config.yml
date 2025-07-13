@@ -1,55 +1,27 @@
-# --------------------------------------
-# SITE METADATA
-# --------------------------------------
 title                    : "Ujjal Timshina"
 title_separator          : "-"
 name                     : "Ujjal Timshina"
 description              : "PhD Scholar, School of Mathematics"
-locale                   : "en-US"
 url                      : "https://ujjalt.github.io/ujjaltimshina"
 baseurl                  : ""
 repository               : "ujjalt/ujjaltimshina"
 
-# --------------------------------------
-# AUTHOR PROFILE
-# --------------------------------------
 author:
   avatar: "images/IMG_1458.png"
   name: "Ujjal Timshina"
   bio: "Doctoral Researcher, School of Mathematics, IIIT Delhi"
-  location: "New Delhi, India"
-  employer: "IIIT, Delhi"
   email: "ujjalt@iiitd.ac.in"
   github: "ujjaltimshina"
   facebook: "Ujjal Timshina"
 
-# --------------------------------------
-# COLLECTIONS
-# --------------------------------------
+# Collections
 collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
 
-# --------------------------------------
-# PAGE DEFAULTS
-# --------------------------------------
+# Defaults
 defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
   - scope:
       path: ""
       type: teaching
@@ -58,74 +30,19 @@ defaults:
       author_profile: true
   - scope:
       path: ""
-      type: publications
+      type: pages
     values:
       layout: single
-      author_profile: true
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
 
-# --------------------------------------
-# PLUGINS
-# --------------------------------------
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
   - jemoji
 
-# GitHub Pages Compatibility
-whitelist:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jemoji
-
-# --------------------------------------
-# MARKDOWN SETTINGS
-# --------------------------------------
+# Build settings
 markdown: kramdown
 highlighter: rouge
-
-kramdown:
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-
-# --------------------------------------
-# OUTPUT
-# --------------------------------------
-permalink: /:categories/:title/
-encoding: "utf-8"
-markdown_ext: "markdown,mkdn,md"
-
-# --------------------------------------
-# ASSETS
-# --------------------------------------
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# --------------------------------------
-# SOCIAL SHARING
-# --------------------------------------
-social:
-  type: Person
-  name: "Ujjal Timshina"
-  links: []
-
-# --------------------------------------
-# ANALYTICS
-# --------------------------------------
-analytics:
-  provider: false
+theme: minima  # Or use remote_theme: "mmistakes/minimal-mistakes@4.24.0"
