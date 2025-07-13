@@ -1,71 +1,31 @@
-# Basic Site Settings
-title: "Ujjal Timshina"
-title_separator: "-"
-name: &name "Ujjal Timshina"
-description: &description "PhD Scholar, School of Mathematics"
-url: "https://timshinaujjal.github.io"   # Your live URL
-baseurl: ""                             # Keep empty for root domain
-repository: "timshinaujjal.github.io" # GitHub repo
+# --------------------------------------
+# SITE METADATA
+# --------------------------------------
+title                    : "Ujjal Timshina"
+title_separator          : "-"
+name                     : "Ujjal Timshina"
+description              : "PhD Scholar, School of Mathematics"
+locale                   : "en-US"
+url                      : "https://ujjalt.github.io/ujjaltimshina"
+baseurl                  : ""
+repository               : "ujjalt/ujjaltimshina"
 
-# Theme (Minimal Mistakes)
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jemoji
-  - jekyll-remote-theme
-
-# Whitelist plugins (fix typo)
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jemoji
-
-# Author info for sidebar
+# --------------------------------------
+# AUTHOR PROFILE
+# --------------------------------------
 author:
-  avatar: "images/IMG_1458.png"  # Adjust path to your avatar image
+  avatar: "images/IMG_1458.png"
   name: "Ujjal Timshina"
   bio: "Doctoral Researcher, School of Mathematics, IIIT Delhi"
   location: "New Delhi, India"
   employer: "IIIT, Delhi"
   email: "ujjalt@iiitd.ac.in"
-
-  # Social media links you want to show
   github: "ujjaltimshina"
   facebook: "Ujjal Timshina"
-  instagram: ""    # Add your Instagram username if any
-  uri: "https://timshinaujjal.github.io"  # Your website URL
 
-# Defaults to enable author_profile on pages/posts etc.
-defaults:
-  - scope:
-      path: ""
-    values:
-      custom_css: style.css   # If you add custom CSS
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# Collections
+# --------------------------------------
+# COLLECTIONS
+# --------------------------------------
 collections:
   teaching:
     output: true
@@ -73,48 +33,99 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
-# Pagination settings
-paginate: 5
-paginate_path: "/page:num/"
+# --------------------------------------
+# PAGE DEFAULTS
+# --------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
 
-# Disable footer GitHub and feed links:
-footer:
-  show_github: false
-  show_feed: false
+# --------------------------------------
+# PLUGINS
+# --------------------------------------
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
 
-# Site settings
-permalink: /:categories/:title/
-timezone: Etc/UTC
+# GitHub Pages Compatibility
+whitelist:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
 
-# Markdown & Syntax highlighting
+# --------------------------------------
+# MARKDOWN SETTINGS
+# --------------------------------------
 markdown: kramdown
 highlighter: rouge
 
-# Sass settings (if you use Sass)
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+# --------------------------------------
+# OUTPUT
+# --------------------------------------
+permalink: /:categories/:title/
+encoding: "utf-8"
+markdown_ext: "markdown,mkdn,md"
+
+# --------------------------------------
+# ASSETS
+# --------------------------------------
 sass:
   sass_dir: _sass
   style: compressed
 
-# Exclude from build
-exclude:
-  - "node_modules"
-  - "vendor"
-  - "Gemfile"
-  - "Gemfile.lock"
+# --------------------------------------
+# SOCIAL SHARING
+# --------------------------------------
+social:
+  type: Person
+  name: "Ujjal Timshina"
+  links: []
 
-# Include extra files
-include:
-  - ".htaccess"
-  - "_pages"
-  - "files"
-
-# Analytics (disabled)
+# --------------------------------------
+# ANALYTICS
+# --------------------------------------
 analytics:
   provider: false
