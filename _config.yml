@@ -1,27 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
 title                    : "Ujjal Timshina"
 title_separator          : "-"
 name                     : &name "Ujjal Timshina"
 description              : &description "PhD Scholar, School of Mathematics"
-url                      : "https://github.com/timshinaujjal/timshinaujjal.github.io/" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "timshinaujjal.github.io/"
+url                      : "https://timshinaujjal.github.io"  # ✅ Correct live URL here
+baseurl                  : ""  # ✅ Keep empty for root domain
+repository               : "timshinaujjal/timshinaujjal.github.io"  # ✅ Format: username/repo
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
-author:
-  # Biographic information
+# Theme (Minimal Mistakes via GitHub Pages)
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"  # ✅ Enables the theme
+
+# Plugins (GitHub Pages safe list)
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-remote-theme  # ✅ Required for remote_theme
+
+# Whitelist (Remove typo in `jekyll-paginatΩ`)
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
+
+# ✅ Add Custom CSS Support
+defaults:
+  - scope:
+      path: ""
+    values:
+      custom_css: style.css
+
+# Optional Sass setting if you add custom SCSS later
+sass:
+  sass_dir: _sass
+  style: compressed
+
   avatar           : "IMG_1458.png"
   name             : "Ujjal Timshina"
   pronouns         : # example: "she/her"  
