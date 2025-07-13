@@ -29,7 +29,7 @@ whitelist:
 
 # Author info for sidebar
 author:
-  avatar: "assets/images/IMG_1458.png"  # Adjust path to your avatar image
+  avatar: "images/IMG_1458.png"  # Adjust path to your avatar image
   name: "Ujjal Timshina"
   bio: "Doctoral Researcher, School of Mathematics, IIIT Delhi"
   location: "New Delhi, India"
