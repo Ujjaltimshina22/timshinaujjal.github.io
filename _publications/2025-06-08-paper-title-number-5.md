@@ -11,4 +11,4 @@ citation: 'Timshina, U. (2022). <i>Beyond Answers: Beauty of Mathematical Questi
 
 This book reflects on the **philosophical and aesthetic aspects of mathematical inquiry**, emphasizing the beauty of deep questions rather than just arriving at answers. It was written to encourage students and educators to approach mathematics with curiosity and wonder.
 
-
+Kindly read and drop your feedback.
