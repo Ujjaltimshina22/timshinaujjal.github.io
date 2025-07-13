@@ -1,235 +1,203 @@
-/* CV Template Styles */
-.cv-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
-  line-height: 1.6;
-}
+title: "Ujjal Timshina"
+title_separator: "-"
+name: &name "Ujjal Timshina"
+description: &description "PhD Scholar, School of Mathematics"
+url: "https://timshinaujjal.github.io/timshinaujjal.github.io/"
+baseurl: ""
+repository: "timshinaujjal.github.io"
+theme: minima
 
-/* Header Styles */
-.cv-header {
-  margin-bottom: 2rem;
-  border-bottom: 2px solid #f2f2f2;
-  padding-bottom: 1rem;
-}
+locale: "en-US"
 
-.cv-header h1 {
-  margin-bottom: 0.5rem;
-  color: #2a7ae2;
-}
+author:
+  avatar: "IMG_1458.png"
+  name: "Ujjal Timshina"
+  bio: "Doctoral Researcher, School of Mathematics, IIIT Delhi"
+  location: "New Delhi, India"
+  employer: "IIIT, Delhi"
+  email: "ujjalt@iiitd.ac.in"
+  github: "ujjaltimshina"
+  facebook: "Ujjal Timshina"
 
-.cv-contact-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-}
+# Publication Categories
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
 
-.cv-contact-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
+# Site Settings
+breadcrumbs: false
+read_more: "disabled"
+talkmap_link: false
 
-.cv-profiles {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
+comments:
+  provider: false
 
-.cv-profile-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
+atom_feed:
+  hide: false
 
-.cv-profile-item a {
-  color: #2a7ae2;
-  text-decoration: none;
-}
+# Analytics
+analytics:
+  provider: false
 
-.cv-profile-item a:hover {
-  text-decoration: underline;
-}
+# Include/Exclude
+include:
+  - .htaccess
+  - _pages
+  - files
 
-/* Section Styles */
-.cv-section {
-  margin-bottom: 2rem;
-}
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
 
-.cv-section h2 {
-  border-bottom: 1px solid #f2f2f2;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: #2a7ae2;
-}
+keep_files:
+  - .git
+  - .svn
 
-.cv-section h2 i {
-  color: #666;
-}
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-/* Item Styles */
-.cv-item {
-  margin-bottom: 1.5rem;
-}
+# Markdown Conversion
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
 
-.cv-item-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-}
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-.cv-item-title {
-  font-weight: bold;
-  font-size: 1.1rem;
-}
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
-.cv-item-date {
-  color: #666;
-}
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
-.cv-item-subtitle {
-  color: #666;
-  margin-bottom: 0.5rem;
-}
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
-.cv-item-summary {
-  margin-bottom: 0.5rem;
-}
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
-.cv-item-highlights {
-  margin-top: 0.5rem;
-  padding-left: 1.5rem;
-}
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
-.cv-item-highlights li {
-  margin-bottom: 0.25rem;
-}
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
-.cv-item-courses ul {
-  margin-top: 0.25rem;
-  padding-left: 1.5rem;
-}
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
-.cv-item-courses li {
-  margin-bottom: 0.25rem;
-}
+# Pagination and URL structure
+permalink: /:categories/:title/
+timezone: Asia/Kolkata
 
-/* Skills Styles */
-.cv-skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
 
-.cv-skill-category h3 {
-  margin-bottom: 0.5rem;
-  color: #333;
-}
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
 
-.cv-skill-keywords {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-.cv-skill-keyword {
-  background-color: #f2f2f2;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
-
-/* Project Styles */
-.cv-project-keywords {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-.cv-project-keyword {
-  background-color: #e6f3ff;
-  color: #2a7ae2;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
-
-/* Languages Styles */
-.cv-languages {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.cv-language {
-  display: flex;
-  flex-direction: column;
-}
-
-.cv-language-name {
-  font-weight: bold;
-}
-
-.cv-language-fluency {
-  color: #666;
-  font-size: 0.9rem;
-}
-
-/* Interests Styles */
-.cv-interests {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
-.cv-interest h3 {
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-.cv-interest-keywords {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.cv-interest-keyword {
-  background-color: #f9f9f9;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
-
-/* References Styles */
-.cv-references {
-  font-style: italic;
-  color: #666;
-}
-
-/* Print Styles */
-@media print {
-  .cv-container {
-    max-width: 100%;
-  }
-  
-  .cv-header {
-    border-bottom-color: #ccc;
-  }
-  
-  .cv-section h2 {
-    border-bottom-color: #ccc;
-  }
-  
-  .cv-skill-keyword,
-  .cv-project-keyword,
-  .cv-interest-keyword {
-    border: 1px solid #ccc;
-    background-color: transparent;
-  }
-}
+# HTML compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
